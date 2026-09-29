@@ -127,7 +127,7 @@ address { font-style: normal; }
 .media-title { display: grid; gap: 1.25rem; }
 .media-title img { width: 100%; max-width: 520px; height: auto; border-radius: 6px; }
 .check-list.large li { padding-top: .8rem; padding-bottom: .8rem; }
-.stat-row { display: grid; border-top: 1px solid var(--ink); }
+.stat-row { margin-bottom: 1.15rem; display: grid; border-top: 1px solid var(--ink); }
 .stat-row > div { padding: .85rem 0; border-bottom: 1px solid var(--line); }
 .stat-row strong, .stat-row span { display: block; }
 .stat-row strong { font-size: 1.3rem; }
@@ -163,7 +163,7 @@ address { font-style: normal; }
 .fee-grid h3 { margin: .4rem 0 1rem; font-size: 1.03rem; letter-spacing: -.01em; }
 .fee-grid strong { font-size: 1.5rem; }
 .schedule-grid { display: grid; gap: 2rem; }
-.schedule-grid article { border-top: 1px solid var(--ink); }
+.schedule-grid article { padding-top: .8rem; border-top: 1px solid var(--ink); }
 .schedule-grid dl { margin: 0; }
 .schedule-grid dl div { padding: .65rem 0; display: flex; justify-content: space-between; gap: 1rem; border-bottom: 1px solid var(--line); }
 .schedule-grid dt { font-weight: 680; }
@@ -264,7 +264,7 @@ address { font-style: normal; }
   .price-head { display: grid; color: #fff; background: var(--ink); font-weight: 700; }
   .price-head > span { min-height: 50px; }
   .fee-grid { grid-template-columns: repeat(5, 1fr); gap: 0; }
-  .fee-grid article { padding-inline: 1rem; border-right: 1px solid #4b4b4b; }
+  .fee-grid article { padding: 1.05rem 1rem; border-right: 1px solid #4b4b4b; }
   .fee-grid article:first-child { padding-left: 0; }
   .fee-grid article:last-child { padding-right: 0; border-right: 0; }
   .mobile-actions { display: none; }
