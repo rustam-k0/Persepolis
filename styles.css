@@ -211,7 +211,7 @@ address { font-style: normal; }
   .quick-facts { grid-template-columns: repeat(3, 1fr); }
   .quick-facts > div { padding: .9rem 1rem; display: block; border-right: 1px solid var(--line); }
   .quick-facts > div:first-child { padding-left: 0; }
-  .quick-facts > div:last-child { border-right: 0; }
+  .quick-facts > div:last-child { padding-right: 0; border-right: 0; }
   .quick-facts dt { margin-bottom: .35rem; }
   .offer-grid { grid-template-columns: 1fr 1fr; }
   .offer-card { padding: 1.4rem; border-right: 1px solid var(--line); }
@@ -224,7 +224,9 @@ address { font-style: normal; }
   .info-band { grid-template-columns: 1.2fr .8fr; }
   .info-band .button { width: fit-content; }
   .stat-row { grid-template-columns: repeat(3, 1fr); }
-  .stat-row > div { padding-right: 1rem; border-right: 1px solid var(--line); }
+  .stat-row > div { padding: .95rem 1rem; border-right: 1px solid var(--line); }
+  .stat-row > div:first-child { padding-left: 0; }
+  .stat-row > div:last-child { padding-right: 0; border-right: 0; }
   .faq-section { grid-template-columns: .7fr 1.3fr; }
   .simple-cta { flex-direction: row; align-items: center; justify-content: space-between; }
   .fee-grid { grid-template-columns: repeat(2, 1fr); column-gap: 2rem; }
@@ -262,7 +264,9 @@ address { font-style: normal; }
   .price-head { display: grid; color: #fff; background: var(--ink); font-weight: 700; }
   .price-head > span { min-height: 50px; }
   .fee-grid { grid-template-columns: repeat(5, 1fr); gap: 0; }
-  .fee-grid article { padding-right: 1rem; border-right: 1px solid #4b4b4b; }
+  .fee-grid article { padding-inline: 1rem; border-right: 1px solid #4b4b4b; }
+  .fee-grid article:first-child { padding-left: 0; }
+  .fee-grid article:last-child { padding-right: 0; border-right: 0; }
   .mobile-actions { display: none; }
   .site-footer { padding-bottom: 3rem; }
 }
